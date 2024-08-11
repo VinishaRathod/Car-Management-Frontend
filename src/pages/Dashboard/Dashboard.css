@@ -1,0 +1,124 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+}
+
+.sidebar h2{
+  text-align: center;
+}
+
+.sidebar button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sidebar button:hover {
+  background-color: #0056b3;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.car-form {
+  margin-bottom: 20px;
+}
+
+.car-form input,
+.car-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.car-form input:focus,
+.car-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.car-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.car-form button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+.car-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.car-list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.car-list button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.car-list button:hover {
+  background-color: #c82333;
+}
+
+.car-list button.edit {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.car-list button.edit:hover {
+  background-color: #e0a800;
+}
